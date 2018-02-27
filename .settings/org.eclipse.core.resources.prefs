@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/api/http/HttpClientUtil.java=UTF-8
+encoding//src/com/api/json/JsonUtil.java=UTF-8
+encoding//src/com/api/json/MD5Util.java=UTF-8
+encoding//src/com/api/json/SecurityUtils.java=UTF-8
+encoding//src/com/api/json/UserLoginVo.java=UTF-8

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<!-- 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+  </listeners>
+  <test name="Test">
+<!--   	<groups> -->
+<!--   		<run> -->
+<!--   			<include name="function-test"/> -->
+<!--   			<exclude name="unit-test"/> -->
+<!--   		</run> -->
+<!--   	</groups> -->
+    <classes>
+      <class name="com.api.test.TestXmlDataProvider"  />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
